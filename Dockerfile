@@ -1,4 +1,4 @@
-FROM node:8-slim
+FROM node:carbon-slim
 
 RUN apt-get update && apt-get install -yq mysql-client
 
