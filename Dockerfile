@@ -1,4 +1,4 @@
-FROM node:13.7-slim@sha256:3af937972f0202bd5ae9099a324a066bc3c874c9a44c09d2d0f888ded72dc9ac
+FROM node:13.13-slim@sha256:f10f225155dbb987c086672462c9c9fc166f410201c4503e879287804b54ee16
 
 # See https://crbug.com/795759
 # RUN apt-get update && apt-get install -yq libgconf-2-4
